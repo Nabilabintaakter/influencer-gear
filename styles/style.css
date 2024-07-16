@@ -267,11 +267,47 @@ main hr{
     border-radius: 0px;
 }
 
+.footer-container{
+    width: 1440px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0826;
+    color: white;
+}
+.content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.content h3{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.content p{
+    color: rgb(217, 219, 225);
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.icon-container{
+    gap: 15px;
+}
+.icon-container img{
+    filter: invert(94%) sepia(100%) saturate(24%) hue-rotate(348deg) brightness(105%) contrast(105%);
+    height: 32px;
+    width: 32px;
+}
+
 
 
                 /* responsive section for mobile devices */
-
-
 
 @media screen and (max-width:576px){
 
