@@ -4,8 +4,70 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+                           /* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.display-grid{
+    display: grid;
+}
+
+                            /* navbar styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.nav-links{
+    gap: 34px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
+} 
+
+nav a{
+    text-decoration: none;
+    color: black;
+} 
+
+nav a img{
+    width: 65%;
+    height: 65%;
+}
+
+.brand{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+                        /* banner styles */
+
+.banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid red;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.banner-text, .banner-image{
+    max-width: 50%;
 }
