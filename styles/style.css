@@ -26,7 +26,7 @@ body{
 .navbar{
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
+    max-width: 1188px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -61,13 +61,65 @@ nav a img{
                         /* banner styles */
 
 .banner-container{
-    max-width: 1440px;
+    max-width: 1188px;
     margin: 0 auto;
     border: 2px solid red;
     justify-content: space-between;
     margin-top: 50px;
+    height: auto;
 }
 
-.banner-text, .banner-image{
-    max-width: 50%;
+.banner-image{
+    margin-right: 33px;
+    max-width: 475px;
+    height: auto;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-image img{
+    width: 100%;
+    height: auto;
+}
+
+.banner-text{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text h1{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner-text p{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.btn{
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px 10px 24px;
+    color: white;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color:rgb(224, 44, 109) ;
+    border: 2px solid rgb(224, 44, 109);
 }
