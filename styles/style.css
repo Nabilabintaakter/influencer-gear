@@ -302,6 +302,27 @@ main hr{
         margin-right: 30px;
     }
 
+/* popular collections */
+
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .see-more-container{
+        width: 100vw;
+        height: 24px;
+    }
+    .see-more{
+        color: rgba(224, 44, 109, 0.87);
+        font-family: Poppins;
+        font-size: 1rem;
+        font-weight: 700;
+        width: 100%;
+        margin-left: 280px;
+    }
+
 }   
 
 
