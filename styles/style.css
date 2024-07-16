@@ -63,7 +63,7 @@ nav a img{
 .banner-container{
     max-width: 1188px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-between;
     margin-top: 50px;
     height: auto;
@@ -123,3 +123,64 @@ nav a img{
     color:rgb(224, 44, 109) ;
     border: 2px solid rgb(224, 44, 109);
 }
+
+
+
+
+
+                /* responsive section for mobile devices */
+
+@media screen and (max-width:576px){
+    .brand{
+        font-size: 1rem;
+    }
+    .navbar {
+        flex-direction: column;
+        max-width: 100%;
+        gap:20px;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-container {
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-text{
+        align-items: center;
+    }
+    .banner-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        width: 100%;
+        /* margin-left: 25px; */
+        background-image: url("../images/Circle\ design.svg");
+        background-position: center;
+
+    }
+    .banner-image img {
+        width: 70%;
+        height: auto;
+        justify-items: center;
+    }
+    .banner-text h1 {
+        font-size: 1.75rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .banner-text p{
+        font-size: 0.875rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+}                
