@@ -67,6 +67,7 @@ nav a img{
     justify-content: space-between;
     margin-top: 50px;
     height: auto;
+    margin-bottom: 70px;
 }
 
 .banner-image{
@@ -124,11 +125,31 @@ nav a img{
     border: 2px solid rgb(224, 44, 109);
 }
 
+                            /* logo styles */
 
+main hr{
+    max-width: 1188px;
+    margin: 0 auto;
+    /* margin-top: 70px; */
+    border: none;
+    height: 1px;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+}
+
+.logo-container{
+    max-width: 1188px;
+    height: 110px;
+    margin: 0 auto;
+    /* border: 2px solid green;  */
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
                 /* responsive section for mobile devices */
+
+/* banner */
 
 @media screen and (max-width:576px){
     .brand{
