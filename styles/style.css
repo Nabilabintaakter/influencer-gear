@@ -152,6 +152,85 @@ main hr{
 
 
 
+.collection-container{
+    max-width: 1047px;
+    height: 1662px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.collection-container .name{
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    width: 329px;
+    height: 476px;
+    /* border: 2px solid green; */
+    padding: 17px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    color: rgb(24, 25, 31);
+    font-family: Poppins;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.card h4 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.card p {
+    color: rgb(120, 120, 133);
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 948px;
+}
+
+
+
+
+
+
+
+
+
                 /* responsive section for mobile devices */
 
 
@@ -190,10 +269,8 @@ main hr{
         align-items: center;
         margin-right: 0px;
         width: 100%;
-        /* margin-left: 25px; */
         background-image: url("../images/Circle\ design.svg");
         background-position: center;
-
     }
     .banner-image img {
         width: 70%;
